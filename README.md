@@ -1,4 +1,4 @@
-## NIST CSF 2.0 Gap Assessment
+# NIST CSF 2.0 Gap Assessment
 
 ## Executive Summary
 
@@ -6,10 +6,12 @@ This assessment evaluated the organization’s current cybersecurity posture usi
 
 Overall, the organization’s cybersecurity maturity aligns with **NIST CSF Tier 1: Partial**. While several security tools and practices are in place, they are inconsistently implemented and lack formal governance, risk-based prioritization, and executive oversight.
 
+<img src="csf-functions.jpg" width="500">
+
 ### Key Findings
 - Cybersecurity governance and executive oversight are not formally established
 - Asset, data, and risk visibility are incomplete, limiting effective prioritization
-- Preventative security controls exist but are inconsistently enforced
+- Preventive security controls exist but are inconsistently enforced
 - Detection, response, and recovery capabilities are largely informal or undocumented
 - Third-party cybersecurity risk is unmanaged
 
@@ -66,7 +68,7 @@ The purpose of this assessment is to evaluate the organization’s current cyber
 ### Key Assumptions
 - No formal cybersecurity governance program exists
 - Cybersecurity responsibilities are primarily handled by IT operations
-
+- Existing security tooling is inconsistently used
 ## Current Cybersecurity Posture Summary
 
 The following summary reflects the organization’s current cybersecurity capabilities based on interviews, documentation review, and high-level technical observations.
@@ -116,12 +118,15 @@ The following summary reflects the organization’s current cybersecurity capabi
 - No formal third-party risk management process
 - Vendor security reviews are not standardized or documented
 
-## NIST CSF 2.0 Gap Assessment
+## NIST CSF 2.0 Gap Assessment Results
 
 The NIST Cybersecurity Framework 2.0 was used as a structured lens to evaluate the organization’s cybersecurity capabilities across six core functions.
 
+<details > 
+<summary> <h3> See Results</h3> </summary>
+
 ### ![Screenshot 2024-10-28 134244](https://github.com/user-attachments/assets/c536c78f-b8d2-4988-a1ad-ea1b0222bd41)
-**Assessment Result:** Largely Not Implemented
+**Assessment Result:** Largely Not Implemented 
 
 | Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
 |-----------|---------------|------------------|----------------|----------------|
@@ -155,6 +160,7 @@ The NIST Cybersecurity Framework 2.0 was used as a structured lens to evaluate t
 ### ![Screenshot 2024-10-28 134447](https://github.com/user-attachments/assets/26e591c9-9ee6-454f-9f5b-37062bec1d0c)
 **Assessment Result:** Not Implemented
 
+
 | Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
 |-----------|---------------|------------------|----------------|----------------|
 | Centralized logging | Not implemented | Logs stored locally across systems | Security events are fragmented and difficult to correlate | Implement centralized log collection across endpoints, cloud, and SaaS services |
@@ -177,12 +183,14 @@ The NIST Cybersecurity Framework 2.0 was used as a structured lens to evaluate t
 ### ![Screenshot 2024-10-28 134503](https://github.com/user-attachments/assets/10ef5d64-da8b-41df-a0fe-56acb244fd1c)
 **Assessment Result:** Partially Implemented
 
+
 | Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
 |-----------|---------------|------------------|----------------|----------------|
 | Recovery planning | Partially implemented | IT disaster recovery procedures exist without cyber-specific recovery focus | Cyber incidents may not be fully accounted for in recovery efforts | Develop recovery procedures aligned to cybersecurity incidents |
 | Backup and restoration | Partially implemented | Backups are performed but not consistently tested for cyber scenarios | Uncertainty around restoration effectiveness after incidents | Establish regular backup testing and validation processes |
 | Recovery communications | Not implemented | No defined recovery communication procedures | Stakeholders may lack clarity during recovery phase | Define internal and external recovery communication plans |
 | Lessons learned integration | Not implemented | No formal post-incident improvement process | Recovery efforts do not improve future resilience | Implement a lessons learned and continuous improvement process |
+</details > 
 
 ## Key Cybersecurity Risks
 
@@ -193,6 +201,8 @@ The NIST Cybersecurity Framework 2.0 was used as a structured lens to evaluate t
 - Undefined vulnerability remediation timelines increase exposure to known exploits
 
 ## CSF Tier Assessment
+
+<img src="csf-tiers.jpg" width="600">
 
 Based on the findings of this assessment, the organization’s current cybersecurity maturity aligns with **NIST CSF Tier 1: Partial**.
 
