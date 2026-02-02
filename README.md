@@ -128,68 +128,33 @@ The NIST Cybersecurity Framework 2.0 was used as a structured lens to evaluate t
 ### ![Screenshot 2024-10-28 134244](https://github.com/user-attachments/assets/c536c78f-b8d2-4988-a1ad-ea1b0222bd41)
 **Assessment Result:** Largely Not Implemented 
 
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Cybersecurity strategy | Not implemented | No documented strategy or executive-approved roadmap | Lack of strategic direction and prioritization | Develop and approve a cybersecurity strategy aligned to business objectives |
-| Executive oversight | Not implemented | No governance committee or reporting cadence | Cyber risk not visible to leadership | Establish executive-level cybersecurity oversight and reporting |
-| Risk appetite definition | Not implemented | No documented risk tolerance statements | Inability to prioritize risk consistently | Define and document organizational cyber risk tolerance |
-| Roles and responsibilities | Partially implemented | Informal IT ownership, no RACI | Accountability gaps across functions | Define and document cybersecurity roles and responsibilities |
+<img src="govern-table.png">
 
 ### ![Screenshot 2024-10-28 134430](https://github.com/user-attachments/assets/bd218bc5-9048-4d91-96fd-77aba367d87b)
 **Assessment Result:** Partially Implemented
 
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Asset inventory | Partially implemented | Endpoint inventory exists without ownership or criticality | Assets cannot be prioritized by business impact | Implement asset inventory with ownership and criticality classification |
-| Data classification | Not implemented | No data classification or labeling scheme | Sensitive data cannot be protected appropriately | Establish and implement data classification standards |
-| Business criticality | Not implemented | No documented critical systems or services | Inability to prioritize recovery and protection efforts | Identify and document business-critical systems and services |
-| Risk assessment | Not implemented | No formal cyber risk assessments conducted | Risks are not consistently identified or prioritized | Establish a formal cybersecurity risk assessment process |
-| Third-party dependencies | Not implemented | Vendor list exists without risk context | Third-party risks are unmanaged | Identify and classify third-party dependencies by risk |
+<img src="identify-table.png">
+
 
 ### ![Screenshot 2024-10-28 134438](https://github.com/user-attachments/assets/f6554061-0d01-49e9-91df-b102eb4b8ac7)
 **Assessment Result:** Partially Implemented
 
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Identity and access protections | Partially implemented | MFA enforced for some users; access granted via tickets | Inconsistent MFA enforcement and access reviews | Enforce MFA for all users and establish periodic access reviews |
-| Privileged access management | Not implemented | No dedicated privileged access controls | Elevated privileges are unmanaged | Implement privileged access management controls |
-| Vulnerability remediation | Partially implemented | Defender vulnerability data reviewed inconsistently | Vulnerabilities are not remediated based on risk | Establish a formal vulnerability management and remediation process |
-| Data protection controls | Partially implemented | Data stored in Azure without classification or DLP | Sensitive data is not consistently protected | Implement data classification and data loss prevention controls |
-| Secure configuration management | Partially implemented | Standard images used without formal change control | Configuration changes are not consistently governed | Establish configuration and change management processes |
+<img src="protect-table.png">
 
 ### ![Screenshot 2024-10-28 134447](https://github.com/user-attachments/assets/26e591c9-9ee6-454f-9f5b-37062bec1d0c)
 **Assessment Result:** Not Implemented
 
-
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Centralized logging | Not implemented | Logs stored locally across systems | Security events are fragmented and difficult to correlate | Implement centralized log collection across endpoints, cloud, and SaaS services |
-| Security event monitoring | Not implemented | No continuous monitoring or alert triage process | Potential threats may go unnoticed | Establish continuous security monitoring and alert review procedures |
-| Anomaly detection | Not implemented | No defined baselines for normal activity | Abnormal behavior cannot be reliably identified | Define behavioral baselines and implement anomaly detection use cases |
-| Alert escalation procedures | Not implemented | No documented escalation thresholds or workflows | Delayed or inconsistent incident response | Define alert severity levels and escalation procedures |
-| Detection roles and responsibilities | Partially implemented | IT staff respond to alerts informally | No clear ownership for detection activities | Define and document detection and monitoring responsibilities |
+<img src="detect-table.png">
 
 ### ![Screenshot 2024-10-28 134456](https://github.com/user-attachments/assets/bfdf2e21-ced1-4767-8ac6-4ec982b6f5e3)
 **Assessment Result:** Not Implemented
 
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Incident response planning | Not implemented | No documented incident response plan | Organization lacks a defined approach to handling incidents | Develop and approve a formal incident response plan |
-| Incident roles and responsibilities | Not implemented | No documented incident response roles or on-call ownership | Response efforts would be uncoordinated during an incident | Define incident response roles and responsibilities |
-| Incident escalation procedures | Not implemented | No documented escalation thresholds or workflows | Delays and confusion during high-severity incidents | Establish incident severity levels and escalation procedures |
-| Incident communications | Partially implemented | Ad hoc internal communications during incidents | Inconsistent stakeholder communication | Define internal and external incident communication procedures |
-| Incident analysis and documentation | Not implemented | No formal incident tracking or post-incident reviews | Lessons learned are not captured or applied | Implement incident documentation and post-incident review process |
+<img src="respond-table.png">
 
 ### ![Screenshot 2024-10-28 134503](https://github.com/user-attachments/assets/10ef5d64-da8b-41df-a0fe-56acb244fd1c)
 **Assessment Result:** Partially Implemented
 
-
-| Capability | Current State | Evidence Reviewed | Gap Identified | Recommendation |
-|-----------|---------------|------------------|----------------|----------------|
-| Recovery planning | Partially implemented | IT disaster recovery procedures exist without cyber-specific recovery focus | Cyber incidents may not be fully accounted for in recovery efforts | Develop recovery procedures aligned to cybersecurity incidents |
-| Backup and restoration | Partially implemented | Backups are performed but not consistently tested for cyber scenarios | Uncertainty around restoration effectiveness after incidents | Establish regular backup testing and validation processes |
-| Recovery communications | Not implemented | No defined recovery communication procedures | Stakeholders may lack clarity during recovery phase | Define internal and external recovery communication plans |
-| Lessons learned integration | Not implemented | No formal post-incident improvement process | Recovery efforts do not improve future resilience | Implement a lessons learned and continuous improvement process |
+<img src="recover-table.png">
 </details > 
 
 ## Key Cybersecurity Risks
